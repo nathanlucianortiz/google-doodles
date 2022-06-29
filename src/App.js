@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Calendar from "./components/Calendar";
+import "./css/calendar.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="app">
+      <body>
+        <header className="app-header">
+          <h1>Google Doodle Gallery</h1>
+        </header>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Pick any day prior to today's date to see the corresponding special
+          days.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Calendar />
+      </body>
     </div>
   );
 }
