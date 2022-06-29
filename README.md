@@ -22,6 +22,4 @@ In-progess work includes:
 2. Cd into the new folder
 3. $ npm install
 
-* Run:
-
-$ npm start
+* Run: $ npm start
