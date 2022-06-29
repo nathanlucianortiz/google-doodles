@@ -10,17 +10,17 @@ The results are then mapped, matching the run_date_array property with the speci
 date that is picked. The matches are then pushed to a new array that is displayed on the righthand side of the calendar.
 
 In-progess work includes:
-*Styling and CSS
-*Replacing Previous and Next methods with a dropdown select.
-\*Fixing the issue of displayed day taking too long load.
+* Styling and CSS
+* Replacing Previous and Next methods with a dropdown select.
+* Fixing the issue of displayed day taking too long load.
 
 ### Installation and Run
 
-\*Installation:
+* Installation:
 
 1. Open your terminal and type $ git clone https://github.com/nathanlucianortiz/google-doodles.git
 2. Cd into the new folder
 3. $ npm install
 
-\*Run:
+* Run:
 $ npm start
