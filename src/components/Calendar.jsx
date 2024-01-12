@@ -107,6 +107,8 @@ function Calendar() {
           <Day matchingDays={matchingDays} />
         </div>
       </div>
+      <img src="http://someImage.png" />
+      <a href="www.google.com">Click Here</a>
     </React.Fragment>
   );
 }
