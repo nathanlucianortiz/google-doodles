@@ -6,9 +6,6 @@ This is a React application that hits the API endpoint "https://google-doodles.h
 
 Upon clicking on either a past or present calendar date, the application will send the year and month as parameters to the endpoint. For example, "https://google-doodles.herokuapp.com/doodles/2022/6" will return all the special days for June 2022.
 
-The results are then mapped, matching the run_date_array property with the specific
-date that is picked. The matches are then pushed to a new array that is displayed on the righthand side of the calendar.
-
 In-progess work includes:
 * Styling and CSS
 * Replacing Previous and Next methods with a dropdown select.
